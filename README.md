@@ -68,9 +68,10 @@ The `CommonMarkConverter` accepts [configuration](https://commonmark.thephpleagu
 ```yaml
 # ...
 
-avensome_commonmark:
-    html_input: allow
-    allow_unsafe_links: true
+avensome_common_mark:
+    converter_config:
+        html_input: allow
+        allow_unsafe_links: true
 ```
 
 
